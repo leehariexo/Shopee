@@ -43,7 +43,7 @@
                         </li>
                     </ul>
                     <ul class="header__navbar-list">
-                        <li class="header__navbar-item">
+                        <li class="header__navbar-item header__navbar-item--has-notyfy">
                             <a href="" class="header__navbar-item-link">
                                 <i class="header__navbar-icon fas fa-bell"></i>
                                 Thông báo
@@ -66,8 +66,8 @@
                                         <a href="" class="header__notify-link">
                                             <img src="http://artia.vn/wp-content/uploads/2020/11/my-pham-Skincare-1200x800.jpg" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__notify-desriotion">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-name">Xác thực chính hãng nguồn góc các sản phẩm Ohui</span>
+                                                <span class="header__notify-desriotion">Hidden Tag là giải pháp xác thực hàng chính hãng công nghệ tiên tiến nhất hiện nay</span>
                                             </div>
                                         </a>
                                     </li>
@@ -75,8 +75,8 @@
                                         <a href="" class="header__notify-link">
                                             <img src="http://artia.vn/wp-content/uploads/2020/11/my-pham-Skincare-1200x800.jpg" alt="" class="header__notify-img">
                                             <div class="header__notify-info">
-                                                <span class="header__notify-name">Mỹ phẩm Ohui chính hãng</span>
-                                                <span class="header__notify-desriotion">Mô tả mỹ phẩm Ohui chính hãng</span>
+                                                <span class="header__notify-name">Sale sốc bộ dưỡng Ohui The First tái sạo trẻ hóa da SALE OFF 70%</span>
+                                                <span class="header__notify-desriotion">giá chỉ còn 375.000 (giá gốc: 1.250.000.vnđ)</span>
                                             </div>
                                         </a>
                                     </li>
@@ -99,17 +99,63 @@
             </div>
         </header>
 
-        <div class="container">
-            <form action="https://fullstack.edu.vn/learning/html-css?id=2173">
-                <input type="radio">
-                <button type="submit">submit</button>
-            </form>
-        </div>
-
         <footer class="footer">
 
 
         </footer>
+    </div>
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="modal__inner">
+
+                <!-- Authen form -->
+                <div class="auth-form">
+                    <div class="auth-form__header">
+                        <h3 class="auth-form__heading">Đăng Ký</h3>
+                        <span class="auth-form__switch-btn">Đăng Nhập</span>
+
+                    </div>
+                    <div class="auth-form__form">
+                        <div class="auth-form__group">
+                            <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form__group">
+                            <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form__aside">
+                        <p class="auth-form__policy-text">
+                            Bằng việc đăng kí, bạn đã đồng ý với Shopee về
+                            <a href="" class="auth-form__policy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form__policy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form__controls">
+                        <button class="btn">TRỞ LẠI</button>
+                        <button class="btn btn--primary">ĐĂNG KÝ</button>
+                    </div>
+
+                    <div class="auth-form__socials">
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fab fa-facebook-square"></i>
+                            Kết nối với Facebook
+                        </a>
+                        <a href="" class="btn btn--with-icon">
+                            <i class="fab fa-google"></i>
+                            Kết nối với Google
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
     </div>
 </body>
 </html>

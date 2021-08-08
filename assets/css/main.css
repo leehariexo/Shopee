@@ -381,6 +381,18 @@
     background-color: var(--white-color);
     border-radius: 2px;
 }
+.header__cart-notice {
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    padding: 1px 8px;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    border-radius: 10px;
+    border: 2px solid #EE4D2D;
+    color: var(--primary-color);
+    background-color: var(--white-color);
+}
 
 .header__search-input-wrap {
     flex: 1;
@@ -575,12 +587,20 @@
 }
 .header__cart-list--no-cart {
     padding: 24px 0;
+ 
+}
+.header__cart-list--no-cart .header__cart-no-cart-img,
+.header__cart-list--no-cart .header__cart-list--no-cart-msg {
+    display: block;
+    margin-left: auto ;
+    margin-right: auto;
 }
 .header__cart-no-cart-img {
     width: 54%;
+    display: none;
 }
 .header__cart-list--no-cart-msg {
-    display: block;
+    display: none;
     font-size: 1.4rem;
     margin-top: 14px;
     color: var(--text-color);
